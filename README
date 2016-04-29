@@ -1,0 +1,9 @@
+Jsonify
+=======
+
+Jsonify is a python script that takes a .csv file as input and outputs a file with the same data in .json format. To use this program from the command line, enter the python shell and run the following commands::
+
+    >> from jsonify import convert
+    >> convert.jsonify('<your csv filename here>')
+
+The script will generate a json file for you in the same directory with the same name as the original csv. 
